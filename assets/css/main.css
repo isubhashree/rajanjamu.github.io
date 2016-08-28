@@ -179,19 +179,19 @@ a:after {
 	margin-right: 30px;
 }
 
-/* Skills */
-#skills {
+/* Team */
+#team {
 	background-color: #4e4e4e;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	margin-top: 50px;
 }
 
-#skills h2 {
+#team h2 {
 	color: white;
 }
 
-#skills p {
+#team p {
 	color: white;
 	font-weight: 400;
 }
@@ -243,4 +243,36 @@ a:after {
 }
 .grid img:hover {
     opacity: 1;
+}
+
+
+.team-member {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+    width: 220px;
+    height: 220px;
+}
+
+.member-name {
+	color: white;
+}
+
+ul.list-inline li a {
+    display: block;
+    background-color: #222;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
 }
