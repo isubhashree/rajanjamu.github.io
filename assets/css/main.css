@@ -45,7 +45,16 @@ p {
 }
 
 .mt {
-	margin-top: 40px;
+	margin-top: 15px;
+}
+
+.mt h2 {
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+
+.mt img {
+	padding-bottom: 40px;
 }
 
 /* Links */
@@ -156,7 +165,7 @@ a:after {
 	margin-bottom: 0px;
 }
 
-#green h3 {
+#green h2 {
 	color: white;
 	font-weight: 400;
 	margin-bottom: 35px;
@@ -166,6 +175,8 @@ a:after {
 	color: white;
 	font-weight: 400;
 	font-size: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 /* Skills */
@@ -176,7 +187,7 @@ a:after {
 	margin-top: 50px;
 }
 
-#skills h3 {
+#skills h2 {
 	color: white;
 }
 
@@ -197,12 +208,17 @@ a:after {
 	color: #16a085;
 }
 
-#social .col-md-3:hover {
+#social .col-sm-3:hover {
 	background-color: #f5f5f5;
 }
 
-#social .col-md-3 {
+#social .col-sm-3 {
 	padding:30px;
+}
+
+#social .footerlogo {
+	color: #16a085;
+	font-size: 30px;
 }
 
 /* Footer */
